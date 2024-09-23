@@ -875,7 +875,7 @@ damage_taken -= random2(3) + 1;//1;
 
 damage_taken += random2(mdam) + 1;
 
-if (player_AC > 0) damage_taken -= random2(player_AC() + 1);
+if (player_AC() > 0) damage_taken -= random2(player_AC() + 1);
 
 if (damage_taken < 1) damage_taken = 0;
 
